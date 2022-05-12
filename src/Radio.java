@@ -6,6 +6,18 @@ public class Radio {
 	private double frequency;
 	private static double frequency_all;
 
+	Radio() {
+		
+	}
+	
+	Radio(String sender) {
+		
+	}
+	
+	Radio (double frequency) {
+		this.frequency = frequency;
+	}
+	
 	public boolean getIsOn() {
 		return isOn;
 	}

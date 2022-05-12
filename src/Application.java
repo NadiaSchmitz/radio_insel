@@ -62,6 +62,18 @@ public class Application {
 		System.out.println(Radio.stationNameToFrequency("GrandmaRadio"));
 		System.out.println(Radio.stationNameToFrequency(null));
 		System.out.println(Radio.stationNameToFrequency("hdjshdjs"));
+		
+		// 6.4.1
+		System.out.println("Aufgabe 6.4.1");
+		System.out.println();
+		
+		Radio radio_2 = new Radio();
+		Radio radio_3 = new Radio(102.0);
+		Radio radio_4 = new Radio("Radio Sender");
+		
+		System.out.println(radio_2.toString());
+		System.out.println(radio_3.toString());
+		System.out.println(radio_4.toString());
 	}
 
 }
